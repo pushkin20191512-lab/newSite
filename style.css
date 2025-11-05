@@ -13,7 +13,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 a {
   width: 1;
@@ -28,7 +27,7 @@ a.header_logo {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 0;
   padding: 0;
   height: calc(100vh - 80px);
   background-color: #f5f5f5;
@@ -42,15 +41,9 @@ main {
 
 .facado1 {
   width: 100vw;
-  height: 43vw;
+  height: 42.4vw;
   display: block;
   margin: 0 auto;
-}
-div {
-  padding: 0px;
-  width: 100vw;
-  height: 1vh;
-  
 }
 
 .logo1 {
@@ -66,9 +59,79 @@ div {
   display: block;
 }
 h1 {
+  background-color: blanchedalmond;
   color: rgb(181, 166, 166);
   font-size: 48px;
- 
- 
- 
+  position: absolute;
+  top: 10%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+}
+.btn3 {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+}
+.btn4 {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+}
+
+#services:target {
+  margin-top: 80px;
+  margin-top: -80px;
+  padding: 60px 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+}
+#contacts:target {
+  margin-top: 80px;
+  margin-top: -80px;
+  padding: 100px 20px;
+  background-color: #d0d0d0;
+  text-align: center;
+}
+
+#home {
+  scroll-margin-top: 0;
+}
+#services,
+#contacts {
+  scroll-margin-top: 80px;
+  margin-top: 80px;
+  margin-top: -80px;
+  padding: 60px 20px;
+  background-color: #e0e0e0;
+  text-align: center;
 }

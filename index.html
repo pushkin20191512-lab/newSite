@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fachada</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="main-header">
-        <img src="logo1.png" alt="Logo1" class="logo1"> 
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="logo1.png" alt="Logo1" class="logo1" />
+        </a>
+      </div>
 
-        <nav class="header_nav">
-            <a href="#">Услуги</a>
-            <a href="#">Контакты</a>
-        </nav>
+      <nav class="header_nav">
+        <a href="#services">Услуги</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
     </header>
     <main>
-        <div>
-            <img src="facado1.png" alt="Fachada" class="facado1">
-        </div>
-        <section class="hero">
-            <h1><strong><em>IMPRESSA NOMBRE</em></strong></h1>
-            <p>Мы предлагаем лучшие услуги для вас.</p>
-            <button>Узнать больше</button>
-        </section>
+      <section id="home" class="hero">
+        <img src="facado1.png" alt="Fachada" class="facado1" />
+        <h1>
+          <strong><em>IMPRESSA NOMBRE</em></strong>
+        </h1>
+      </section>
+      <button class="btn1">Наши проекты</button>
+      <button class="btn2">пока не придумал</button>
+      <button class="btn3">пока не придумал 2</button>
+      <button class="btn4">пока не придумал 3</button>
+
+      <section id="services">
+        <h2><strong>Наши услуги</strong></h2>
+        <p><em>Делаем лицо вашего дома</em></p>
+      </section>
+
+      <section id="contacts">
+        <h3><strong>Контакты</strong></h3>
+        <p>
+          <em>Manager 1<br />+34-614-74-52-52</em>
+        </p>
+      </section>
     </main>
-</body>
+  </body>
+</html>

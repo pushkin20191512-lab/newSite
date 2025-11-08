@@ -3,6 +3,7 @@ body {
   padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: Arial, sans-serif;
 }
 
 .main-header {
@@ -134,4 +135,80 @@ html {
   padding: 60px 20px;
   background-color: #e0e0e0;
   text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  a {
+    padding: 10px 0;
+  }
+}
+
+.facada1 {
+  padding: px;
+  width: 300vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.title {
+front-size: 36px;
+color: #333;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    
+  }
+  .main-header a {
+    padding: 5px 0;
+    width: 100%;
+    justify-content: center;
+  }
+  .title {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .btn-group {
+  flex-direction: column;
+  gap: 10px;
+}
+.btn1, .btn2, .btn3, .btn4 {
+  width: 90%;
+  max-width: 300px;
+  padding: 12px 15px;
+  font-size: 14px;
+}
+#services, #contacts {
+  padding: 40px 15px;
 }
